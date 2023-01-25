@@ -113,9 +113,6 @@ public class Main {
             break;
           }
           for (int i = 0; i < tempCardArray.length; i++) {
-            System.out.println(tempCardArray[i]);
-          }
-          for (int i = 0; i < tempCardArray.length; i++) {
             if (tempCardArray[i] == "A") {
               cardArray[i] = 1;
             }
@@ -145,9 +142,6 @@ public class Main {
                 break;
               }
             }
-          }
-          for (int i = 0; i < cardArray.length; i++) {
-            System.out.print(cardArray[i]);
           }
           System.out.println("");
           break;
